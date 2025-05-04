@@ -1,4 +1,4 @@
-# 🏗 Scaffold Kadena EVM
+# 🏗 Scaffold Kadena (EVM Chains)
 
 A custom fork of Scaffold-ETH 2 with specialized support for Kadena EVM Devnet, making it easier to build and deploy dApps on Kadena's blockchain.
 
@@ -28,11 +28,10 @@ yarn install
 
 ### Hardhat Configuration
 
-The hardhat configuration is already set up to work with Kadena Devnet. Key features:
+The hardhat configuration is already set up to work with Kadena Devnet via hardhat config. Key features:
 
 - Pre-configured for Kadena Devnet Chain 0 and Chain 1
 - Simplified deployment process
-- TypeScript contract generation
 
 ### Frontend Configuration
 
@@ -56,10 +55,10 @@ cd packages/hardhat
 npm run deploy:kadena1
 ```
 
-### Start the Frontend
+### Navigate to the Nextjs Folder and Start the Frontend
 
 ```bash
-cd packages/nextjs
+cd ../nextjs
 npm run dev
 ```
 
